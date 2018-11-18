@@ -6,6 +6,6 @@ public class SampleTest extends Setup{
     public void LogInPage() throws InterruptedException {
         //Open Facebook
         driver.get(url);
-        driver.findElement(By.xpath("//*[@id=\"u_0_j\"]")).sendKeys("Shone");
+        driver.findElement(By.xpath("//*[@id=\"u_0_j\"]")).sendKeys("Shone Mathew");
     }
 }
